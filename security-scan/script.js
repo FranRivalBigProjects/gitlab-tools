@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let v=(report.value.match(/vuln/gi)||[]).length;res.innerText=`Vulnerabilities: ${v}`;}

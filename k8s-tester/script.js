@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let p=+pods.value;if(!p){res.innerText='Enter value';return;}res.innerText=p>0?'Cluster reachable':'No pods';}

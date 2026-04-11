@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let e=env.value.split('\n').length;res.innerText=`Variables: ${e}`;}

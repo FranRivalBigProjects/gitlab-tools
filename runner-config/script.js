@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let c=+cpu.value,r=+ram.value;if(!c||!r){res.innerText='Enter values';return;}res.innerText=c>=2&&r>=4?'OK':'Low resources';}

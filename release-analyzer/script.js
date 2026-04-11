@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let v=+versions.value;if(!v){res.innerText='Enter value';return;}res.innerText=`Releases: ${v}`;}

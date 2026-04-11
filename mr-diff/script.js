@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let lines=diff.value.split('\n').length;res.innerText=`Lines changed: ${lines}`;}

@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let s=+size.value;if(!s){res.innerText='Enter value';return;}res.innerText=s>500?'Heavy cache':'Optimized';}
